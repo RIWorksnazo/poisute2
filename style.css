@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    
-    /* 全体の背景画像設定 */
-    background-image: url("poi2.png"); 
-    background-size: cover;        /* 画面いっぱいに広げる */
-    background-position: center;   /* 中央に配置 */
-    background-attachment: fixed;  /* スクロールしても背景を固定する */
+body {/* メインビジュアル画像の設定 */
+.main-visual {
+    text-align: center;
+    background-color: #000; /* 画像の周りの色。黒にしています */
 }
-
+.main-visual img {
+    width: 100%;
+    max-width: 800px; /* スマホでは画面幅ぴったり、PCでは最大800pxで表示 */
+    height: auto;
+    vertical-align: bottom;
+}
 /* ヘッダー（メインビジュアル部分） */
 .hero {
     text-align: center;
