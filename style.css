@@ -14,8 +14,6 @@ body {
 
 /* ヘッダー（メインビジュアル部分） */
 .hero {
-/* ヘッダー（メインビジュアル部分） */
-.hero {
     /* アップロードした画像を表示し、枠いっぱいに広げる設定 */
     background-image: url("poi2.png");
     background-size: cover;
