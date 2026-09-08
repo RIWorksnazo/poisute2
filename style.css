@@ -12,7 +12,7 @@ body {/* メインビジュアル画像の設定 */
 }
 .main-visual img {
     width: 100%;
-    max-width: 800px; /* スマホでは画面幅ぴったり、PCでは最大800pxで表示 */
+    max-width: 500px; /* ここを 800px から 500px に変更しました */
     height: auto;
     vertical-align: bottom;
 }
